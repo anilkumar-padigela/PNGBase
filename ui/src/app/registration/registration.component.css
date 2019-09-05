@@ -1,0 +1,11 @@
+.main-container {
+    max-width: 350px;
+    position: relative;
+    left: 30em;
+}
+
+.pointer {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}

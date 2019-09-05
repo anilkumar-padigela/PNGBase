@@ -1,0 +1,26 @@
+<!-- <span>Products page</span>
+<input *ngIf="mapService.isLoaded">
+<am-map #maper [_id]="'id'" [initialConfig]="config"></am-map>
+</am-map>
+</div> -->
+<div class="row main-container">
+    <div class="col-md-2">
+        <div class="row">
+            <mat-form-field class="col-md-12">
+                <mat-label>Start Location</mat-label>
+                <input matInput />
+            </mat-form-field>
+            <mat-form-field class="col-md-12">
+                <mat-label>End Location</mat-label>
+                <input matInput />
+            </mat-form-field>
+            <button class="btn btn-primary" (click)="searchStores()">Search</button>
+        </div>
+        <div>
+            <h5>List of stores</h5>
+        </div>
+    </div>
+    <div class="col-md-8">
+        Map will come here
+    </div>
+</div>
