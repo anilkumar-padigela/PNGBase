@@ -21,6 +21,9 @@
         </div>
     </div>
     <div class="col-md-8">
-        Map will come here
+        <mat-card>
+            <iframe id="iframeId" width="900" height="600" [src]="url | safe" #iframe></iframe>
+        </mat-card>
+        <mat-card></mat-card>
     </div>
 </div>

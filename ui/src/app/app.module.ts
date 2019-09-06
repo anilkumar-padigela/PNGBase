@@ -27,13 +27,15 @@ import { RegistrationComponent } from './registration/registration.component';
 import { ApiCallsService } from './api-calls.service';
 import { ProductsComponent } from './products/products.component';
 import { HeaderComponent } from './header/header.component';
+import { SafePipe } from './shared/safePipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
     ProductsComponent,
-    HeaderComponent
+    HeaderComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
